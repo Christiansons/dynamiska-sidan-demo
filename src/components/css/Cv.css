@@ -1,0 +1,28 @@
+.cv{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 4rem;
+    padding: 2rem;
+    border: 1px solid darkgrey;
+}
+
+  .divider {
+    border-bottom: 2px solid hsl(0, 0%, 37%);
+    width: 100%;
+  }
+
+  main ul{
+    background-color: grey;
+  }
+
+  h4{
+    font-weight:normal;
+  }
+  
+  h2 {
+    align-self: center;
+  }
+
+  

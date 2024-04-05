@@ -1,0 +1,13 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 2rem;
+    margin-bottom: 20rem;
+}
+
+  .contact-container a {
+    text-decoration: none;
+    color: var(--bs-body-color);
+  }

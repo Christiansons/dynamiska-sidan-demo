@@ -1,0 +1,71 @@
+{
+    "academicExperience": [
+        {
+            "school": "Chas Academy",
+            "description": ".NET web developer",
+            "dateFrom": "2023",
+            "dateTo": "2025"
+        },
+        {
+            "school": "Lunds Tekniska Högskola",
+            "description": "Technical Preparatory year",
+            "dateFrom": "2018",
+            "dateTo": "2019"
+        },
+        {
+            "school": "Nacka Gymnasium",
+            "description": "High school diploma in economics",
+            "dateFrom": "2014",
+            "dateTo": "2017"
+        }
+    ],
+    "workExperience": [
+        {
+            "workPlace": "",
+            "role": "Property Manager",
+            "dateFrom": "2022",
+            "dateTo": "",
+            "description": "Managing properties for short term rentals"
+        },
+        {
+            "workPlace": "Golfstar",
+            "role": "Facility manager",
+            "dateFrom": "2019-01",
+            "dateTo": "2022-02",
+            "description": "Worked as a facility manager for the shop, handeling bookings, events and managing the staff"
+        },
+        {
+            "workPlace": "Hemköp",
+            "role": "Cashier and floor",
+            "dateFrom": "2017-04",
+            "dateTo": "2018-06",
+            "description": "working the cashier and floor"
+        },
+        {
+            "workPlace": "Foodora",
+            "role": "customer & dispatch support specialist",
+            "dateFrom": "2016-01",
+            "dateTo": "2017-04",
+            "description": "Handled customer errands and support for riders having issues with dispatching"
+        }
+    ],
+    "contactDetails": {
+        "email": "alexander.christianson@outlook.com",
+        "phone": "+46739309362",
+        "references": "will be provided if requested"
+    },
+    "languageSkills": [
+        {
+            "language": "Swedish",
+            "level": "fluently"
+        },
+        {
+            "language": "English",
+            "level": "fluently"
+        },
+        {
+            "language": "Spanish",
+            "level": "basics"
+        }
+    ]
+}

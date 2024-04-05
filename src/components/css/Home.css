@@ -1,0 +1,77 @@
+.intro {
+    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+  
+  .alexPicture { 
+    filter: brightness(70%);
+    color: dimgray;
+    height: 35vmin;
+    width: auto;
+    margin: 2rem;
+    border-radius: 10rem; 
+    border-width: 3px;
+     border-style: outset;
+     border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 100px rgba(0,0,0, 3);
+  }
+  
+  .introText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .occupation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .leftBracket, .rightBracket{
+    font-size: 15vmin;
+    margin: 0;
+    padding: 0;
+    color: darkgrey; 
+  }
+  
+  .helloIm{
+    color: darkgrey;
+    font-size: 3vmin;
+  }
+  
+  .name {
+    font-size: 3vmin;
+  }
+  
+  .role {
+    font-size: 4vmin;
+  }
+
+  .about, .experience, .card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3rem;
+    padding: 1rem;
+  }
+  
+  .aboutHeader, .experienceHeader, .card-header {
+    align-self: center;
+    font-size: 3vh;
+  }
+  
+  .aboutText,  .experiences{
+    font-size: 2vh;
+    line-height: 1.6;
+    border: 5px solid darkgrey;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  

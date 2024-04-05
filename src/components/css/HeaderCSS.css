@@ -1,0 +1,80 @@
+header {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px solid hsl(0, 0%, 37%);
+    justify-content: space-between;
+  }
+
+
+  #logo{
+    color: rgb(82, 82, 82);
+    padding-left: 2rem;
+    font-size: 3vmin;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-right: auto;
+    flex-shrink: 1;
+  }
+  #logo span{
+    color: darkgrey;
+  }
+  
+  header a{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+  }
+  
+  header ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  header ul li{
+    font-size: 3vmin;
+    padding: 1em 2rem;
+    flex-shrink: 1;
+  }
+
+  a.active{
+    text-decoration: underline;
+  }
+  
+  a:hover{
+    color: lightgrey;
+  }
+
+  #nav_button {
+    display: none;
+  }
+
+  .ham-menu{
+    display: none;
+  }
+
+  @media (max-width: 650px) {
+    .ham-menu {
+      display: block;
+      z-index: 1;
+    }
+    .menu {
+      z-index: 1;
+      flex-direction: column;
+      position:fixed;
+      right: 0;
+      top: 0;
+      left: 100%;
+      bottom: 0;
+      text-align: end;
+      background-color: rgba(0,0,0,0.3); 
+      transition: all 0.5s;
+      overflow: hidden;
+    }
+    #nav_button:checked ~ .menu {
+      left: 0;
+      padding-top: 6em;
+    }
+  }
+
