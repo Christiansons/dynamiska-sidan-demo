@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="figtree-font">
-      <BrowserRouter>
+      <BrowserRouter basename="/dynamiska-sidan-demo">
       <Header/>
         <Routes>
           <Route path="/" element={<Home />}/>
