@@ -14,7 +14,7 @@ export default function Projects() {
             .then((response) => response.json())
             .then((data) => {
                 const filteredRepos = data.filter((repo) => {
-                    return repo.name === "Labb3-miniAPI" || repo.name === "MusikProjektet" || repo.name ==="Labb-10-SQL-ORM"
+                    return repo.name === "Labb3-miniAPI" || repo.name === "MusikProjektet" || repo.name ==="Labb-10-SQL-ORM" || repo.name ==="Binge-backend"
                 })
                 setTimeout(() => {
                     setRepos(filteredRepos);
